@@ -9,7 +9,7 @@ $(document).ready(function() {
       $(".iso").hide();
       $(".sca").hide();
       $(".non").hide();
-    } if (side1 === side2 || side1 === side3 || side2 === side3) {
+    } else if (side1 === side2 || side1 === side3 || side2 === side3) {
       $(".eq").hide();
       $(".iso").show();
       $(".sca").hide();
