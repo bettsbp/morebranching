@@ -10,12 +10,37 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Celebrity Dating Quiz</h1>
+        <h1>Triangle</h1>
       </div>
-      <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="index.html">Celeb Dating Quiz</a></li>
-        <li role="presentation"><a href="#">Political Meter</a></li>
-      </ul>
+      <form id="sides">
+        <div class="form-group">
+          <label for="side1">Side 1 length</label>
+          <input id="side1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="side2">Side 2 length</label>
+          <input id="side2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="side3">Side 3 length</label>
+          <input id="side3" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="result">
+        <div class="eq">
+          <h1>Equilateral Triangle</h1>
+        </div>
+        <div class="iso">
+          <h1>Isosceles Triangle</h1>
+        </div>
+        <div class="sca">
+          <h1>Scalene Triangle</h1>
+        </div>
+        <div class="non">
+          <h1>This is not a triangle.</h1>
+        </div>
+      </div>
     </div>
   </body>
 </html>
